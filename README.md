@@ -1,0 +1,1 @@
+# Magazzino - gestione inventario laboratori
