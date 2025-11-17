@@ -29,6 +29,8 @@ jobs:
           app_location: "/"
           api_location: ""
           output_location: "dist"
+          app_build_command: "npm run build"
+          skip_app_build: false
         env:
           # Configurazioni per l'app React
           VITE_AZURE_CLIENT_ID: ${{ secrets.VITE_AZURE_CLIENT_ID }}
